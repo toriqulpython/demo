@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 960px;
+    height: 560px;
+    background-image: url(background_image.jpg);
+    margin: auto;
+    margin-top: 20px;
+}
+.col-6{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+/* left side start */
+.left_side{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text{
+    width: 100%;
+    height: 20%;
+}
+.text_badge{
+    position: relative;
+}
+.text h3{
+    font-size: 28px;
+    top: 25px;
+    position: relative;
+}
+.text_badge h2{
+    font-size: 36px;
+    position: absolute;
+}
+.text_badge span{
+    font-size: 20px;
+    border: 1px gray;
+    border-style: ridge;
+    padding: 5px;
+    font-weight: bold;
+    position: relative;
+    left: 130px;
+}
+/* main part start */
+
+.main{
+    width: 100%;
+    height: 60%;
+}
+.first_main{
+    width: 100%;
+    height: 33.33%;
+}
+.first_main_img{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.first_main_text{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.first_main_text h3{
+    font-size: 36px;
+}
+.first_main_text p{
+    font-size: 24px;
+}
+.second_main{
+    width: 100%;
+    height: 33.33%;
+}
+.second_main_img{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.second_main_text{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.second_main_text h3{
+    font-size: 36px;
+}
+.second_main_text p{
+    font-size: 24px;
+}
+.third_main{
+    width: 100%;
+    height: 33.33%;
+}
+.third_main_img{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.third_main_text{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.third_main_text h3{
+    font-size: 36px;
+}
+.third_main_text p{
+    font-size: 24px;
+}
+/* main part end */
+.member{
+    width: 100%;
+    height: 20%;
+    padding-top: 15px;
+}
+.member_image{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.member_image img{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.img_1{
+    position: absolute;
+}
+.img_2{
+    position: absolute;
+    left: 310px;
+}
+.img_3{
+    position: absolute;
+    left: 340px;
+}
+.img_4{
+    border-radius: 50%;
+    border: 10px solid green;
+    position: absolute;
+    left: 375px;
+    bottom: 200px;
+}
+.member_text{
+    width: 70%;
+    height: 100%;
+    font-size: 28px;
+    float: right;
+}
+/* left side end */
+/* right side start */
+.right_side{
+    padding-right: 20px;
+}
+.price_1{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.price_1_icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.price_1_text{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.price_1_text h2{
+    font-size: 32px;
+}
+.price_1_amount{
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.price_2{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    border-radius: 20px;
+    border-color: green;
+}
+.price_2_icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.price_2_text{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.price_2_text h2{
+    font-size: 32px;
+}
+.price_2_amount{
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.price_3{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.price_3_icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.price_3_text{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.price_3_text h2{
+    font-size: 32px;
+}
+.price_3_amount{
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.price_offer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233, 229, 218);
+    border-style: dashed;
+    border-color: orange;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.price_offer_icon{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.price_offer_text{
+    width: 60%;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+}
+.price_offer_link{
+    width: 30%;
+    height: 100%;
+    float: right;
+    font-size: 20px;
+}
+.price_offer_link a{
+    text-decoration: none;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(108, 198, 108);
+    border-radius: 10px;
+    box-shadow: 1px;
+    margin-top: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+/* right side end */
